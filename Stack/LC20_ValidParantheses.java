@@ -1,17 +1,17 @@
 class Solution {
     public boolean isValid(String s) {
          Stack<Character> st = new Stack<>();
-        for (char c : s.toCharArray()) {
+        for (char ch : s.toCharArray()) {
             // If opening bracket, push to stack
-            if (c == '(' || c == '[' || c == '{') {
-                st.push(c);
+            if (ch == '(' || ch == '[' || ch == '{') {
+                st.push(ch);
             } else {
                 // If stack empty, no matching opening bracket
                 if (st.isEmpty()) return false;
                 char top = st.pop();
-                if (c == ')' && top != '(') return false;
-                if (c == ']' && top != '[') return false;
-                if (c == '}' && top != '{') return false;
+                if (ch == ')' && top != '(') return false;
+                if (ch == ']' && top != '[') return false;
+                if (ch == '}' && top != '{') return false;
             }
         }
         return st.isEmpty(); // All must be matched
