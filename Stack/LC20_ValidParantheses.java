@@ -8,10 +8,10 @@ class Solution {
             } else {
                 // If stack empty, no matching opening bracket
                 if (st.isEmpty()) return false;
-                char tope = st.pop();
-                if (c == ')' && tope != '(') return false;
-                if (c == ']' && tope != '[') return false;
-                if (c == '}' && tope != '{') return false;
+                char top = st.pop();
+                if (c == ')' && top != '(') return false;
+                if (c == ']' && top != '[') return false;
+                if (c == '}' && top != '{') return false;
             }
         }
         return st.isEmpty(); // All must be matched
