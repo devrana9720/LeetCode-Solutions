@@ -10,14 +10,14 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode i=list1;
+        ListNode n=list1;
         ListNode j=list2;
         ListNode dummy=new ListNode(-1);
         ListNode k=dummy;
-        while(i!=null && j!=null){
-            if(i.val<=j.val){
-                k.next=i;
-                i=i.next;
+        while(n!=null && j!=null){
+            if(n.val<=j.val){
+                k.next=n;
+                n=n.next;
             }
             else{
                 k.next=j;
@@ -25,11 +25,11 @@ class Solution {
             }
             k=k.next;
         }
-        if(i==null){
+        if(n==null){
             k.next=j;
         }
         else{
-            k.next=i;
+            k.next=n;
         }
         return dummy.next;
     }
