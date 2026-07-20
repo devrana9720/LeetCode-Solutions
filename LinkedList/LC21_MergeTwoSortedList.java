@@ -13,23 +13,23 @@ class Solution {
         ListNode i=list1;
         ListNode j=list2;
         ListNode dummy=new ListNode(-1);
-        ListNode k=dummy;
+        ListNode dupli=dummy;
         while(i!=null && j!=null){
             if(i.val<=j.val){
-                k.next=i;
+                dupli.next=i;
                 i=i.next;
             }
             else{
-                k.next=j;
+                dupli.next=j;
                 j=j.next;
             }
-            k=k.next;
+            dupli=dupli.next;
         }
         if(i==null){
-            k.next=j;
+            dupli.next=j;
         }
         else{
-            k.next=i;
+            dupli.next=i;
         }
         return dummy.next;
     }
