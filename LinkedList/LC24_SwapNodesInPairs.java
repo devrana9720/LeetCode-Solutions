@@ -18,16 +18,16 @@ class Solution {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
 
-        ListNode prev = dummy;
+        ListNode previous = dummy;
 
-        while (prev.next != null && prev.next.next != null) {
+        while (previous.next != null && previous.next.next != null) {
 
-            ListNode first = prev.next;
+            ListNode first = previous.next;
             ListNode second = first.next;
             first.next = second.next;
             second.next = first;
-            prev.next = second;
-            prev = first;
+            previous.next = second;
+            previous = first;
         }
 
         return dummy.next;
