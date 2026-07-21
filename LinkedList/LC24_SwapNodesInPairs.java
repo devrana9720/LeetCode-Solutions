@@ -23,10 +23,10 @@ class Solution {
         while (prev.next != null && prev.next.next != null) {
 
             ListNode first = prev.next;
-            ListNode second = first.next;
-            first.next = second.next;
-            second.next = first;
-            prev.next = second;
+            ListNode sec = first.next;
+            first.next = sec.next;
+            sec.next = first;
+            prev.next = sec;
             prev = first;
         }
 
