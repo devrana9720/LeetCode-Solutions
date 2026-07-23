@@ -9,10 +9,10 @@ class Solution {
         int m = needle.length();
 
         // Loop through haystack
-        for (int i = 0; i <= n - m; i++) {
-            // Check substring of length m starting at i
-            if (haystack.substring(i, i + m).equals(needle)) {
-                return i; // Found match
+        for (int j = 0; j <= n - m; j++) {
+            // Check substring of length m starting at j
+            if (haystack.substring(j, j + m).equals(needle)) {
+                return j; // Found match
             }
         }
         return -1; // Not found
