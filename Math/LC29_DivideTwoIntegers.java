@@ -6,7 +6,7 @@ class Solution {
             return -Integer.MAX_VALUE;
         }
 
-        boolean negat = (dividend < 0) ^ (divisor < 0);
+        boolean negative = (dividend < 0) ^ (divisor < 0);
 
         long a = Math.abs((long) dividend);
         long b = Math.abs((long) divisor);
@@ -18,7 +18,7 @@ class Solution {
             ans++;
         }
 
-       if (negat) {
+       if (negative) {
             return -ans;
         } else {
             return ans;
