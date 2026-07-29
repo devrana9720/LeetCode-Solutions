@@ -6,22 +6,22 @@ class Solution {
         return result;
     }
     
-    private void dfs(int[] candidates, int start, int remaining,
+    private void dfs(int[] candidates, int start, int remain,
                      List<Integer> current, List<List<Integer>> result) {
-        if (remaining == 0) {
+        if (remain == 0) {
             result.add(new ArrayList<>(current));
             return;
         }
-        if (remaining < 0) {
+        if (remain < 0) {
             return; 
         }
         
         for (int i = start; i < candidates.length; i++) {
-            if (candidates[i] > remaining) {
+            if (candidates[i] > remain) {
                 break; 
             }
             current.add(candidates[i]);
-            dfs(candidates, i, remaining - candidates[i], current, result);
+            dfs(candidates, i, remain - candidates[i], current, result);
             current.remove(current.size() - 1);
         }
     }
