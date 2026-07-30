@@ -5,17 +5,17 @@ class Solution {
         return ans;
     }
 
-    private void dfs(int[] num, boolean[] used, List<Integer> path, List<List<Integer>> ans) {
-        if (path.size() == num.length) {
-            ans.add(new ArrayList<>(path));
+    private void dfs(int[] num, boolean[] used, List<Integer> way, List<List<Integer>> ans) {
+        if (way.size() == num.length) {
+            ans.add(new ArrayList<>(way));
             return;
         }
         for (int i = 0; i < num.length; i++) {
             if (used[i]) continue;
             used[i] = true;
-            path.add(num[i]);
-            dfs(num, used, path, ans);
-            path.remove(path.size() - 1);
+            way.add(num[i]);
+            dfs(num, used, way, ans);
+            way.remove(way.size() - 1);
             used[i] = false;
         }
     }
