@@ -1,9 +1,9 @@
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
+        List<List<Integer>> answer = new ArrayList<>();
         Arrays.sort(nums);
-        dfs(nums, new boolean[nums.length], new ArrayList<>(), ans);
-        return ans;
+        dfs(nums, new boolean[nums.length], new ArrayList<>(), answer);
+        return answer;
     }
 
     private void dfs(int[] nums, boolean[] used, List<Integer> path, List<List<Integer>> ans) {
