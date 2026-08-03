@@ -2,7 +2,7 @@ class Solution {
     public double myPow(double x, int n) {
 
         long exp = n;
-        double result = 1.0;
+        double res = 1.0;
 
         if (exp < 0) {
             x = 1.0 / x;
@@ -11,12 +11,12 @@ class Solution {
 
         while (exp > 0) {
             if (exp % 2 == 1) {
-                result *= x;
+                res *= x;
             }
             x *= x;
             exp /= 2;
         }
 
-        return result;
+        return res;
     }
 }
