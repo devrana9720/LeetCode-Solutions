@@ -8,7 +8,7 @@ class Solution {
         return res;
     }
     private void backtrack(int row, int n, char[][] board, List<List<String>> res,
-                           boolean[] cols, boolean[] d1, boolean[] d2) {
+                           boolean[] cols, boolean[] d0, boolean[] d1) {
         if (row == n) {
             List<String> sol = new ArrayList<>();
             for (char[] r : board)
@@ -17,12 +17,12 @@ class Solution {
             return;
         }
         for (int col = 0; col < n; col++) {
-            if (cols[col] || d1[row + col] || d2[col - row + n]) continue;
+            if (cols[col] || d0[row - col + n] || d1[row + col]) continue;
             board[row][col] = 'Q';
-            cols[col] = d1[row + col] = d2[col - row + n] = true;
-            backtrack(row + 1, n, board, res, cols, d1, d2);
+            cols[col] = d0[row - col + n] = d1[row + col] = true;
+            backtrack(row + 1, n, board, res, cols, d0, d1);
             board[row][col] = '.';
-            cols[col] = d1[row + col] = d2[col - row + n] = false;
+            cols[col] = d0[row - col + n] = d1[row + col] = false;
         }
     }
 }
