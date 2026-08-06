@@ -10,10 +10,10 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        return helper(l1,l2,0);
+        return helper_funct(l1,l2,0);
     }
 
-    private ListNode helper(ListNode l1,ListNode l2,int carry){
+    private ListNode helper_funct(ListNode l1,ListNode l2,int carry){
         if(l1==null && l2==null && carry==0){
             return null;
         }
@@ -25,7 +25,7 @@ class Solution {
         
 
         ListNode ans=new ListNode(sum%10);
-        ans.next = helper(
+        ans.next = helper_funct(
             (l1 == null ? null : l1.next),
             (l2 == null ? null : l2.next),
             newcarry
