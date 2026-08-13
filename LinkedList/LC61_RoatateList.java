@@ -11,9 +11,9 @@
 class Solution {
     public int length(ListNode head){
         int length=0;
-        ListNode temp=head;
-        while(temp!=null){
-            temp=temp.next;
+        ListNode tem=head;
+        while(tem!=null){
+            tem=tem.next;
             length++;
         }
         return length;
