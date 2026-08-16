@@ -9,12 +9,12 @@ class Solution {
                 return digits;
             }
         }
-        int[] arr=new int[digits.length+1];
-        arr[0]=1;
-        for(int i=1;i<arr.length;i++){
-            arr[i]=digits[i-1];
+        int[] array=new int[digits.length+1];
+        array[0]=1;
+        for(int i=1;i<array.length;i++){
+            array[i]=digits[i-1];
         }
-        return arr;
+        return array;
         
     }
 }
