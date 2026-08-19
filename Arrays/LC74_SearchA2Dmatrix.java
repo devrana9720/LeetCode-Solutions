@@ -1,5 +1,5 @@
 class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
+    public boolean searchMatrix(int[][] matrix, int targ) {
         int m = matrix.length;
         int n = matrix[0].length;
 
@@ -12,9 +12,9 @@ class Solution {
             int row = mid / n;
             int col = mid % n;
 
-            if (matrix[row][col] == target) {
+            if (matrix[row][col] == targ) {
                 return true;
-            } else if (matrix[row][col] < target) {
+            } else if (matrix[row][col] < targ) {
                 low = mid + 1;
             }
             else{
