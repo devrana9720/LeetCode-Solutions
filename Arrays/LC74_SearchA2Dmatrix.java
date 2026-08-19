@@ -2,16 +2,12 @@ class Solution {
     public boolean searchMatrix(int[][] matrix, int targ) {
         int m = matrix.length;
         int n = matrix[0].length;
-
         int low = 0;
         int high = m * n - 1;
-
         while (low <= high) {
             int mid = low + (high - low) / 2;
-
             int row = mid / n;
             int col = mid % n;
-
             if (matrix[row][col] == targ) {
                 return true;
             } else if (matrix[row][col] < targ) {
@@ -22,7 +18,5 @@ class Solution {
             }
         }
         return false;
-
-       
     }
 }
