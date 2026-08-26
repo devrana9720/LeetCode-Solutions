@@ -5,10 +5,10 @@ class Solution {
             return head;
         }
 
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
+        ListNode dum = new ListNode(0);
+        dum.next = head;
 
-        ListNode prev = dummy;
+        ListNode prev = dum;
 
         // Move to node before left
         for (int i = 1; i < left; i++) {
@@ -29,6 +29,6 @@ class Solution {
             prev.next = next;
         }
 
-        return dummy.next;
+        return dum.next;
     }
 }
