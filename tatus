@@ -1,0 +1,283 @@
+[33mcommit 3503f99eeba02c11a36a916684b720c0ae0d8ba7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Sep 26 16:34:18 2026 +0530
+
+    Add Leetcode 131 Palindrome Partitioning
+
+[33mcommit c389af899e7285fadc06797bf06209a29a77a243[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Sep 25 11:30:14 2026 +0530
+
+    Add Leetcode 128 Longest Consecutive Sequence
+
+[33mcommit e6d621c461a374e30bae47270e356b1226bdabbc[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Sep 24 10:00:24 2026 +0530
+
+    Add Leetcode 125 Valid Palindrome
+
+[33mcommit 1bbe1798fbea91da63ec624486e97f7650122283[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Sep 23 09:15:28 2026 +0530
+
+    Add Leetcode 119 Pascal's Triangle II
+
+[33mcommit c38ef8c569fcce66cc9554300d852196def5afc1[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Mon Sep 21 18:31:36 2026 +0530
+
+    Add Leetcode 118 Pascal's Triangle
+
+[33mcommit 0520e79a4a267bf94f848e038e0606a88dcb3733[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Sep 19 12:18:34 2026 +0530
+
+    Add Leetcode 102 Binary Tree Level Order Traversal
+
+[33mcommit 9017c974f95564d59709eb88559641cb32ac7846[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Sep 17 12:19:13 2026 +0530
+
+    Add Leetcode 101 Symmetric Tree
+
+[33mcommit 823d2a0e3f91783928c2ca7bc23452921e91e4b0[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Sep 16 09:33:23 2026 +0530
+
+    Add Leetcode 100 Same Tree
+
+[33mcommit 7068a7362cbfe13028a24a9ac83c5d015cea3fd6[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Sep 15 09:27:55 2026 +0530
+
+    Changed Successfully
+
+[33mcommit 8d4f88c0d66d7079788228525bbca6c780260b49[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Sep 15 09:27:19 2026 +0530
+
+    Add Leetcode 94 Binary Tree Inorder Traversal
+
+[33mcommit 9f1ff2b0464219b412b1f86455bde63d0781e06a[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Mon Sep 14 12:30:06 2026 +0530
+
+    Add LeetCode 92 Reverse Linked List II
+
+[33mcommit b2ce78c2f6225499f4ff8500c93f0df2957b3fb6[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sun Sep 13 12:47:25 2026 +0530
+
+    Add LeetCode 835 Image Overlap
+
+[33mcommit 431a2324a7d9ae86aa53fe1594259413422c63db[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Sep 11 13:10:47 2026 +0530
+
+    Add LeetCode 91 Decode Ways
+
+[33mcommit 536803c102029a4e20436e9a29c49399293a71ba[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Sep 10 10:46:15 2026 +0530
+
+    Add LeetCode 25 Reverse Nodes in k-Group
+
+[33mcommit c0ea625abc945c8a6962339a5a8faba7b145c2e4[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Sep 9 12:23:14 2026 +0530
+
+    Add LeetCode 90 Subsets II
+
+[33mcommit e87641446d57be57d06441c5bcab37a73c9f1f91[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Mon Sep 7 14:22:18 2026 +0530
+
+    Add LeetCode 89 Gray Code
+
+[33mcommit 3dbf42076f179edd0bda997757afe27b161dfc7d[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Sep 2 09:04:22 2026 +0530
+
+    Add LeetCode 88 Merge Sorted Array
+
+[33mcommit 9cdfcf5a7a8ee3c61b4bda895f96ef0ca9174f5f[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Mon Aug 31 20:35:57 2026 +0530
+
+    Add LeetCode 86 Partition List
+
+[33mcommit e4e3762b35c75aa5f8fc6764df986a033ac8e609[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sun Aug 30 20:02:53 2026 +0530
+
+    Add LeetCode 85 Maximum Rectangle
+
+[33mcommit ba6e6f6260ad9d9365567419fdb9ab3ee558b35c[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Aug 29 17:07:33 2026 +0530
+
+    Changed
+
+[33mcommit 8264c38f921f71fc1510a2389b4c14c46c72e379[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Aug 29 17:05:01 2026 +0530
+
+    Add LeetCode 84 Largest Rectangle In Histogram
+
+[33mcommit 7f6d2ed9396a7040afda8092ed90d54b3d8c10ad[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 27 20:56:11 2026 +0530
+
+    Changed
+
+[33mcommit 42ad0bb5299e5af86a6b7953d96bab2216dc4717[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 27 20:55:42 2026 +0530
+
+    Add LeetCode 83 Remove Duplicates From Sorted List
+
+[33mcommit 4f0dc4ca7d619509dabd311a0ffbcd65ed997c47[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 26 17:05:02 2026 +0530
+
+    Changed
+
+[33mcommit 9a41050af0c5eb072fc60a80d99876da70b2c1d3[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 26 17:03:17 2026 +0530
+
+    Add LeetCode 82 Remove Duplicates From Sorted List II
+
+[33mcommit d6048cfcd9b1785adca8afdc5e0378c129d3ade4[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Aug 25 19:52:21 2026 +0530
+
+    Add LeetCode 81 Search In Rotated Array II
+
+[33mcommit 4e9f6b7f4e7f2159bfb7a1d397f037cfb278c660[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sun Aug 23 10:13:40 2026 +0530
+
+    Add LeetCode 10 Regular Expression Matching
+
+[33mcommit 6ad3a0b6b554cc478b1488c09af36b2ba5755f46[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Aug 22 18:36:58 2026 +0530
+
+    Changed Succesful
+
+[33mcommit 91b556e747cc0528afe3a810ccd472be957e19ea[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sat Aug 22 18:36:15 2026 +0530
+
+    Add LeetCode 78 Subsets
+
+[33mcommit 26e003ba16f0a401616e6fea194128ef2d8acb25[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Aug 21 14:47:31 2026 +0530
+
+    Add LeetCode 75 Sort Colors
+
+[33mcommit 653357ea75caf9535b73f148473fa53ce916f41a[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 19 11:51:57 2026 +0530
+
+    Changed
+
+[33mcommit c41dc204990bea4cc1679ebf8ec7b1b38f1489a4[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 19 11:49:35 2026 +0530
+
+    Changed SuccesFull
+
+[33mcommit dc6e7cf4728e34d2d5b8c856a274024d1f936f35[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 19 11:48:54 2026 +0530
+
+    Add LeetCode 74 Search A 2D Matrix
+
+[33mcommit bc187814df5f8c50b2ca83ecfeb6958fe4bb6d64[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Wed Aug 19 11:46:23 2026 +0530
+
+    Add LeetCode 70 Climbing Stairs
+
+[33mcommit 5651ea75c03b1b4e841132ce13f80162eaa71edd[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Aug 18 09:34:01 2026 +0530
+
+    Changed SuccessFull
+
+[33mcommit ce9cb8d6bee12cf8f01dcbf97484eaa352c015ac[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Aug 18 09:33:28 2026 +0530
+
+    Changed SuccessFull
+
+[33mcommit 5b319c9775bb05dfe6bef7919689f77e7bd03f01[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Tue Aug 18 09:32:34 2026 +0530
+
+    Add LeetCode Question 69 Sqrt(x)
+
+[33mcommit b2e09b6bba38a6622235ce13956bf3c39b890c36[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sun Aug 16 21:15:48 2026 +0530
+
+    Changed SuccesFull
+
+[33mcommit 6911e36241507c5a4a013cf1f61671fd788b62b0[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Sun Aug 16 21:15:02 2026 +0530
+
+    Add LeetCode Question 66 Plus One
+
+[33mcommit 3964226f7e6045f26c38f046d007f5b0fa46cd73[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 13 14:53:47 2026 +0530
+
+    Changed Successfull
+
+[33mcommit b3fdfe84e0d7fafc1062af8318c57f2b6d34f23e[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 13 14:52:42 2026 +0530
+
+    Changed Successfull
+
+[33mcommit 8da33fca39d2b812ec4244731a77c9285f943a27[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 13 14:51:41 2026 +0530
+
+    Add LeetCode Question 61 Rotate List
+
+[33mcommit 829658e29d9bb55fb1c0aec492a308860296f2b0[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Aug 7 15:20:58 2026 +0530
+
+    Changed Succesful
+
+[33mcommit 8f29565aef7ec1dba2e95c162cb127af2fe2f51b[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Aug 7 15:18:44 2026 +0530
+
+    Changed Succesful
+
+[33mcommit 23b2147248831c0812bb4318cfb1013a1c5558ee[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Fri Aug 7 15:14:28 2026 +0530
+
+    Add LeetCode 58 Length Of Last Word
+
+[33mcommit 4ea007734ac44959c9e55742bc0e10f499336276[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 6 14:58:36 2026 +0530
+
+    Changed Succesful
+
+[33mcommit 0de19ea199a8da9241e244029a95d18d5fa69c99[m
+Author: Dev Rana <devrana3256@gmail.com>
+Date:   Thu Aug 6 14:57:17 2026 +0530
+
+    Changed Succesful
+
+[33mcommit 64af29da6ce461e8285f5d9
