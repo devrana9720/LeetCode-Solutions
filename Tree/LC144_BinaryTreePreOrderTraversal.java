@@ -6,13 +6,13 @@ class Solution {
         return ans;
     }
 
-    public void preorderTraversal(TreeNode root, List<Integer> ans) {
+    public void preorderTraversal(TreeNode root, List<Integer> answ) {
         if (root == null) {
             return;
         }
 
-        ans.add(root.val);
-        preorderTraversal(root.left, ans);
-        preorderTraversal(root.right, ans);
+        answ.add(root.val);
+        preorderTraversal(root.left, answ);
+        preorderTraversal(root.right, answ);
     }
 }
